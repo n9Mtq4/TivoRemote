@@ -90,6 +90,7 @@ public class TivoRemote {
 		add(new Channeldown(this));
 		add(new Clear(this));
 		add(new Enter(this));
+		add(new ImageSource(this));
 		
 	}
 	

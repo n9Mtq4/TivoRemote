@@ -66,4 +66,8 @@ public abstract class ButtonMap implements MouseListener {
 		
 	}
 	
+	public TivoRemote getParent() {
+		return parent;
+	}
+	
 }
